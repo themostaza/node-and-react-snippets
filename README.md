@@ -33,7 +33,7 @@ const loggerMiddleware = createLogger({
 ```
 
 ## Unit Testing
-#### Mocking a function (startRanging) of  module(beaconsHandler) imported by another module(myModule) (...what a mess)
+#### Mocking a function (startRanging) of a module (beaconsHandler) imported by another module(myModule) (...what a mess)
 ```javascript
 import proxyquire from 'proxyquire'
 
